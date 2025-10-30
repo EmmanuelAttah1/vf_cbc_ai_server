@@ -151,6 +151,8 @@ def group2_agent(message,setup={},id="1"):
     graph.invoke({"messages":messages},{"configurable": {"thread_id": id}})
 
     if interview_results:
-        return(interview_results,None,True,)
+        res = interview_results
+        interview_results = None
+        return(res,None,True,)
     
     return (last_response.response, last_response.question_type,has_ended)
