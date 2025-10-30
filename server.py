@@ -13,10 +13,7 @@ app = FastAPI() # creating a FastAPI instance and storing it in app variable
 origins = [
     "http://127.0.0.1:8000",
     "http://127.0.0.1:5500",
-    "https://emmanuelattah1.github.io/vf_cbc_ai_1",
-    "https://emmanuelattah1.github.io/vf_cbc_ai_2",
-    "https://emmanuelattah1.github.io/vf_cbc_ai_3",
-    "https://emmanuelattah1.github.io/vf_cbc_ai_4"
+    "https://emmanuelattah1.github.io"
 ]
 
 app.add_middleware( 
