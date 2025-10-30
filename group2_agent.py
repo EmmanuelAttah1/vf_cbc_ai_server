@@ -138,6 +138,7 @@ is_first = True
 def group2_agent(message,setup={},id="1"):
     global last_response
     global is_first
+    global interview_results
 
     if is_first:
         is_first = False
